@@ -27,7 +27,7 @@ Before you begin, make sure you have the following software installed:
 
     3.1 Windows
     ```bash 
-    venv\\Scripts\\activate
+    venv\Scripts\activate
     ```
     3.2 MacOS or Linux
     ```bash 
