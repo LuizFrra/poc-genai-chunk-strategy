@@ -5,7 +5,7 @@ from chunks.sentence_transfomers_strategy import SentenceTransformersStrategy
 from chunks.nltk_strategy import NltkStrategy
 from chunks.markdown_strategy import MarkdownStrategy
 
-file_path = "../markdown_to_test.md"    
+file_path = "../text_to_test.txt"    
 
 def open_file(file_path):
     with open(file_path, "r", encoding='utf-8') as file:
@@ -16,10 +16,10 @@ def open_file(file_path):
 file_contents = open_file(file_path)
 
 #chunk_splitter = TiktokenStrategy()
-#chunk_splitter = SpacyStrategy()
+chunk_splitter = SpacyStrategy()
 #chunk_splitter = SentenceTransformersStrategy()
 #chunk_splitter = NltkStrategy()
-chunk_splitter = MarkdownStrategy()
+#chunk_splitter = MarkdownStrategy()
 
 result = chunk_splitter.split(file_contents)
 

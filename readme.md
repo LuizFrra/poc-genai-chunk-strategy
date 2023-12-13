@@ -33,9 +33,9 @@ Before you begin, make sure you have the following software installed:
     ```bash 
     source venv/bin/activate
     ```
-4. Install the spaCy model en_core_web_sm:
+4. Install the spaCy model xx_sent_ud_sm:
     ```bash 
-    python -m spacy download en_core_web_sm
+    python -m spacy download xx_sent_ud_sm
     ```
 
 ## Usage
