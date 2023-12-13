@@ -1,0 +1,6 @@
+langchain
+tiktoken
+unidecode
+spacy
+sentence-transformers
+nltk
